@@ -10,9 +10,7 @@
 
 axios.get('https://lambda-times-backend.herokuapp.com/topics')
     .then(response => {
-        console.log(response.data);
         const dataArray = response.data.topics
-        console.log(dataArray);
         const topicsElement = document.querySelector('.topics')
         dataArray.forEach((item) => {
             topicsElement.append(newTab(item))
