@@ -30,20 +30,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The DOM is the Document Object Modell, it enables us to manipulate our page structure. It splits our html document in nodes and each node is an object that represents a part of our page. 
+
 2. What is an event?
+
+An Event is something that requires a certain thing to happen before the some code runs, for example a click or a scroll. This enables us to make our page interactive. 
 
 3. What is an event listener?
 
+An Event-Listener looks out for these exact Events, its is applied to a certain part of the document (sometimes the whole doc). If that part of the document gets interacted with in a way that our Eventlistener is set up to trigger to, the code for it will run.
+
 4. Why would we convert a NodeList into an Array?
+
+NodeLists dont work with Array methods
 
 5. What is a component?
 
+A component is a piece of code we can reuse over and over again, even in different projects. It is kind of similar to a constructur. It is very useful when you need to create a lot of elements that are exactly the same except for their content. News articles, images, blog posts etc.
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-* [ ] You are now ready to build this project with your preferred IDE
+* [X] Fork the project into your GitHub user account
+* [X] Clone the forked project into a directory on your machine
+* [X] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [X] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
